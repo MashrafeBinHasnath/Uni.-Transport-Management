@@ -3,7 +3,7 @@ package com.transport.schedule.model;
 public class Model {
 
     public static class TransportSchedule {
-           private Long id;
+        private Long id;
 
         private String busNumber;
 
