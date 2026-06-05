@@ -79,3 +79,19 @@ public class Model {
         public void setDepartureTime(String departureTime) {
             this.departureTime = departureTime;
         }
+
+        @Override
+        public String toString() {
+
+            return "TransportSchedule{" +
+                    "id=" + id +
+                    ", busNumber='" + busNumber + '\'' +
+                    ", driverName='" + driverName + '\'' +
+                    ", seatCapacity=" + seatCapacity +
+                    ", availableSeats=" + availableSeats +
+                    ", routeName='" + routeName + '\'' +
+                    ", departureTime='" + departureTime + '\'' +
+                    '}';
+        }
+    }
+}
