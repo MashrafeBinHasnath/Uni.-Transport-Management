@@ -3,6 +3,19 @@ package com.transport.schedule.model;
 public class Model {
 
     public static class TransportSchedule {
+           private Long id;
+
+        private String busNumber;
+
+        private String driverName;
+
+        private int seatCapacity;
+
+        private int availableSeats;
+
+        private String routeName;
+
+        private String departureTime;
     public TransportSchedule() {
         }
 
