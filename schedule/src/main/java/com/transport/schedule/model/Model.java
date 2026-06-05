@@ -2,7 +2,7 @@ package com.transport.schedule.model;
 
 public class Model {
 
-    
+    public static class TransportSchedule {
     public TransportSchedule() {
         }
 
